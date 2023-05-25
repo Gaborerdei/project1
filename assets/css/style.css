@@ -1,0 +1,78 @@
+
+/* ------------------------------COLORS */
+.align-items-start {
+    background-color: #2b2a2a;
+    line-height: 1.6em;
+}
+
+.logo {
+    height: 115px;
+    width: 200px;
+}
+
+
+/* ------------------------------NAV BAR */
+.nav-link {
+    margin-top: 20px;
+    margin-left: 15px;
+    color: white;
+    font-family: Montserrat,sans-serif;
+    font-weight: 300;               
+    font-size: 14px;    
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+}
+
+.always-100-max {
+    max-width:100% !important;
+}
+
+.nav {
+    justify-content: center;
+}
+
+/* ------------------------------NAV ANIMATION */
+
+a:hover {
+    color: #fafafa !important;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #fafafa;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fafafa;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+/* ------------------------------HEADER */
+.header-under {
+    background-color: gold;
+    height: 10px;
+}
+
+/* ------------------------------FOOTER */
+
+.footer {
+    background-color: #2b2a2a;
+    line-height: 1.6em;
+}
+
+
+
