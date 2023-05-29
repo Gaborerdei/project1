@@ -1,5 +1,6 @@
 
 /* ------------------------------COLORS */
+
 .align-items-start {
     background-color: #2b2a2a;
     line-height: 1.6em;
@@ -108,10 +109,6 @@ footer {
    color: #8d8d8d;
 }
 
-.contact {
-    margin-top: 23px;
-}
-
 .fa {
     color: #8d8d8d;
     margin: 0;
@@ -119,4 +116,71 @@ footer {
 
 .fa:hover {
     color:#fafafa;
+}
+
+
+
+.contact {
+    margin-top: 23px;
+}
+
+
+/* ------------------------------CONTACT FORM */
+
+.contact-page {
+    width: 100% !important;
+    margin: 0 0 0 0;
+}
+
+
+.container {
+  background: #D9B280;
+  height: 650px;
+ 
+}
+
+.container .map {
+  width: 45%;
+  float: left;
+  margin-top: 35px;
+  
+}
+
+.container .contact-form {
+  width: 53%;
+  margin-left: 2%;
+  float: left;
+}
+.container .contact-form .title {
+  font-size: 2.5em;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  color:#fafafa;
+  margin: 5% 8%;
+}
+.container .contact-form .subtitle {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 4% 5% 8%;
+}
+.container .contact-form input,
+.container .contact-form textarea {
+  width: 330px;
+  padding: 3%;
+  margin: 2% 8%;
+  color: #242424;
+  border: 1px solid #B7B7B7;
+}
+.container .contact-form input::placeholder,
+.container .contact-form textarea::placeholder {
+  color: #242424;
+}
+.container .contact-form .btn-send {
+  background: #2b2a2a;
+  width: 180px;
+  height: 60px;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin: 2% 8%;
+  border: none;
 }
