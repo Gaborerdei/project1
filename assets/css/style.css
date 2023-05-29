@@ -70,6 +70,7 @@ a:hover {
     color: #3d3d3d;
     font-size: 30px;
     font-style: italic;
+    margin-left: 10px;
 }
 
 .base-content {
@@ -113,7 +114,9 @@ img.kavita{
     margin: 10px;
 }
 
-
+.logos {
+    justify-content: center;
+}
 
 
 /* ------------------------------CONTACT FORM */
@@ -284,5 +287,13 @@ footer {
     .main-header{
         min-width: 100%;
         margin-left: 10px;
+    }
+
+    .logos {
+        margin-left: 10px;
+    }
+
+    .supplier-logo {
+        padding-left: 10px;
     }
 }
