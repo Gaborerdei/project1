@@ -274,3 +274,16 @@ footer {
 }
 
 /* ----------------------------------------Media Queries */
+
+@media(max-width: 994px) {
+    
+    .main-header{
+        min-width: 80%
+    }
+
+    .nav {
+        text-align: left;
+    }
+
+
+}
