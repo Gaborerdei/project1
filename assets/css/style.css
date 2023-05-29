@@ -70,7 +70,7 @@ a:hover {
     color: #3d3d3d;
     font-size: 30px;
     font-style: italic;
-    margin-left: 10px;
+
 }
 
 .base-content {
@@ -295,5 +295,6 @@ footer {
 
     .supplier-logo {
         padding-left: 10px;
+        justify-content: center;
     }
 }
