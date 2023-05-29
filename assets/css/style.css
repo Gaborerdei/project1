@@ -277,12 +277,11 @@ footer {
 
 @media(max-width: 994px) {
     
-    .header {
-        min-height: 200px;
-        
+    .nav {
+        margin-left: 25px;
     }
 
     .main-header{
-        min-width: 80%
+        min-width: 80%;
     }
 }
