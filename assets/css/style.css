@@ -231,7 +231,7 @@ footer {
 .footer-details {
     background-color: #2b2a2a;
     width: 100%
-    height
+
     
 }
 
@@ -249,8 +249,8 @@ footer {
 
 .fmenu {
     margin-top: 1px;
-    margin-bottom: 5px;
-    font-size: 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
     color: #8d8d8d;
     text-align: center;
     justify-content: center;
