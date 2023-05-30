@@ -278,6 +278,10 @@ footer {
     margin-top: 23px;
 }
 
+.logo-footer {
+    margin-top:50px;
+}
+
 /* ----------------------------------------Media Queries */
 
 @media(max-width: 994px) {
