@@ -33,6 +33,10 @@
     justify-content: center;
 }
 
+.navbar {
+    padding: 0;
+}
+
 /* ------------------------------NAV ANIMATION */
 
 a:hover {
@@ -212,6 +216,10 @@ img.kavita{
     width: 40%;
 }
 
+.treatments-photo {
+    width: 150px;
+    height: 150px;
+}
 
 /* ------------------------------GALLERY */
 
