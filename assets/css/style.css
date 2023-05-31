@@ -16,6 +16,16 @@
 
 /* Custom styles for the hamburger menu */
 
+
+#navbarNav {
+  place-content: center;  
+}
+
+.navbar-nav {
+    gap: 120px;
+}
+
+
 .navbar-toggler {
     border: none; /* Remove border */
     outline: none; /* Remove outline */
@@ -39,59 +49,13 @@
     letter-spacing: 2px; 
 }
   
-  .navbar-nav .nav-link {
+.navbar-nav .nav-link {
     padding: 0.5rem 1rem;
-    color: white; /* Customize link color */
+    color: #fafafa; /* Customize link color */
     transition: color 0.3s ease;
   }
   
-  .navbar-nav .nav-link:hover {
-    color: red; /* Customize link hover color */
-  }
-  
-  .navbar-collapse  {
-    justify-content: flex-end; /* Align menu items to the right */
-  }
-  
-  /* Media query for small screens */
-  @media (max-width: 767px) {
-    .navbar-nav {
-      flex-direction: column; /* Stack menu items vertically */
-    }
-  
-    .navbar-nav .nav-link {
-      padding: 1rem; /* Increase the padding for better touch interactions */
-    }
-  }
-
-
-
-
-
-/*
-.always-100-max {
-    max-width:100% !important;
-}
-
-.nav {
-    margin-top: 20px;
-    justify-content: center;
-}
-
-.navbar {
-    padding: 0;
-}
-
-
-
-------------------------------NAV ANIMATION 
-
-a:hover {
-    color: #fafafa !important;
-}
-
-
-.hover-underline-animation {
+  .hover-underline-animation { /* Nav animation */
     display: inline-block;
     position: relative;
     color: #fafafa;
@@ -115,7 +79,17 @@ a:hover {
     transform-origin: bottom left;
   }
 
-*/
+  
+  .navbar-collapse  {
+    justify-content: flex-end; /* Align menu items to the right */
+  }
+  
+ 
+
+
+
+
+
 
 
 /* ------------------------------MAIN PAGE */
@@ -341,12 +315,30 @@ footer {
     margin-top:50px;
 }
 
-/* ----------------------------------------Media Queries */
+/* --
+    --------------------------------------Media Queries */
 
 @media(max-width: 994px) {
     
+    .nav-link {
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
     .nav {
         margin-left: 25px;
+    }
+ 
+    .navbar-nav {
+        gap: 1px;
+    }
+
+    .navbar-toggler-icon {
+        color:rgb(220, 210, 210);
+    }
+
+    .logo {
+        display: none;
     }
 
     .main-header{
