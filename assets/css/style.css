@@ -209,34 +209,29 @@ img.kavita{
 
 /* ------------------------------TREATMENT PAGE */
 
+.treatment-page {
+    background: #fbf7fc;
+}
+
 .pricelist-header {
     font-family: Alex Brush;
     color: #3d3d3d;
     font-size: 30px;
     font-style: italic;
-    margin-left: 40px;
+    margin-left: 300px;
 }
 
 .pricelist {
     margin-left: 100px;
-}
-
-.price {
-    padding-left: 30px;
-}
-
-.table-row {
-    padding-left: 30px;
-}
-
-.treatment-page {
-    background: #fbf7fc;
+    background-color: rgb(220, 210, 210);
 }
 
 .treatments-table{
-    
     font-family: Alex Brush;
-    margin-left: 100px;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 5px;
+    
 }
 
 .table-row{
