@@ -211,6 +211,7 @@ img.kavita{
 
 .treatment-page {
     background: #fbf7fc;
+    justify-content: center;
 }
 
 .pricelist-header {
@@ -245,11 +246,15 @@ img.kavita{
     height: 160px;
 }
 
+/* ------------------------------TREATMENT PAGE OFFER CARD */
 
-
+.offer{
+    padding-top: 20px;
+    margin-left: 10px;
+}
 
 .offer-card {
-    background-color: #D9B280;
+    background-color: rgb(220, 210, 210);
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
