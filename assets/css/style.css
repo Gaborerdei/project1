@@ -397,5 +397,11 @@ footer {
     .pricelist-header{
         min-width: 100%;
         margin-left: 10px;
+        text-align: center;
     }
+
+    .treatments-table {
+        font-family: Alex Brush;
+        margin-left: 10px;
+}
 }
