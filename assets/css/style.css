@@ -220,6 +220,7 @@ img.kavita{
     font-size: 30px;
     font-style: italic;
     margin-left: 300px;
+    padding-top: 10px;
 }
 
 .pricelist {
@@ -390,5 +391,11 @@ footer {
     .supplier-logo {
         padding-left: 10px;
         justify-content: center;
+    }
+
+
+    .pricelist-header{
+        min-width: 100%;
+        margin-left: 10px;
     }
 }
