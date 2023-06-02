@@ -272,8 +272,10 @@ img.kavita{
 
 
 .offer-photo {
-    width: 180px;
-    height: 160px;
+    width: 240px;
+    height: 205px;
+    margin-left: 85px;
+    border-radius: 10px;
 }
 
 
