@@ -148,11 +148,12 @@ img.kavita{
 .contact-page {
     width: 100% !important;
     margin: 0 0 0 0;
+    background-color: #fbf7fc;
 }
 
 
 .container {
-  background: #D9B280;
+  background: #fafafa;
   height: 650px;
  
 }
@@ -410,4 +411,23 @@ footer {
     .offer-photo {
         display: none;
     }
+
+
+
+    .container .contact-form input {
+        width: 120px;
+    }
+
+    .container .contact-form textarea {
+        width: 120px;
+    }
+
+    .container .contact-form .btn-send {
+        width: 120px;
+    }
+
+    .container .map {
+        margin-top: 15px;
+    }
+
 }
