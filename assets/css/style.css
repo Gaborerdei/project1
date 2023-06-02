@@ -241,15 +241,41 @@ img.kavita{
 }
 
 .treatments-photo {
-    width: 160px;
+    width: 180px;
     height: 160px;
 }
+
+
+
+
+.offer-card {
+    background-color: #D9B280;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .offer-card h2 {
+    color: #333;
+  }
+
+  .offer-card p {
+    color: #777;
+    margin-bottom: 0;
+  }
+
+
+
+
+
 
 /* ------------------------------GALLERY */
 
 .gallery {
     margin-top: 15px;
 }
+
+
 
 
 
