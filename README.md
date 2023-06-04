@@ -140,7 +140,7 @@ The page consists of four pages and features.
   to right.
 - Logo is placed on the center of the site and linked the Index.html.
 
-![Logo and Navigation Bar](docs/features/navbar.png)
+![Logo and Navigation Bar](docs/navbar.png)
 
 ### Map
 - Show the beauty salon location on an embedded Google Map.
