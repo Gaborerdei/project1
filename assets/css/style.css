@@ -319,7 +319,7 @@ footer {
     margin-top: 1px;
     margin-bottom: 10px;
     font-size: 16px;
-    color: #8d8d8d;
+    color: #fafafa;
     text-align: center;
     justify-content: center;  
 }
@@ -327,7 +327,7 @@ footer {
 .social-links {
    margin-top: 10px;
    font-size: 20px;
-   color: #8d8d8d;
+   color:#fafafa;
 }
 
 .fa {
