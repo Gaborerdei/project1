@@ -203,6 +203,11 @@ img.kavita{
   
 }
 
+.map {
+    display: flex;
+    height: 100%;
+}
+
 
 /* ------------------------------TREATMENT PAGE */
 
