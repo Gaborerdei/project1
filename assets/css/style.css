@@ -428,4 +428,9 @@ footer {
     .offer-card {
         margin-left: 0px;
     }
+
+    .contact {
+        margin-top: 23px;
+        padding-left: 25px;
+    }    
 }
