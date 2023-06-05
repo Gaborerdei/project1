@@ -425,4 +425,7 @@ footer {
     .container .map {
         margin-top: 15px;
     }
+    .offer-card {
+        margin-left: 0px;
+    }
 }
