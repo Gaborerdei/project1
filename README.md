@@ -13,9 +13,10 @@ It's designed to be responsive and accessible on all devices.
 
 1. [Project Goal](#project-goal)
   
-2. [User Experience (UX)](#user-experience)
-    1. [User](#user)
-    2. [Site Owner](#site-owner)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
 
 3. [Design](#design)
     1. [Design Choices](#design-choices)
@@ -54,33 +55,36 @@ It's designed to be responsive and accessible on all devices.
 
 Primary goal is to provide an informative good-looking website that showcases Kavita's Beauty Bay and encourages the user to come to the beauty salon. The site will be targeted toward women who are looking for explore the secret of the Inidan beauty.
 
-## User Experience (UX)
- - Accessibility,
- - Quickly and easily find relevant information,
- - Links and functions that work as expected,
- - Good presentation and a visually appealing design regardless of screen 
-   size,
- - Easy to contact the beauty salon,
- - Simple content that the user can read easily.
+
+## User Experience
+
+### Target Audience
+- Ages 16 and up.
+- Anyone who is interested in beauty treatments.
+
+### User Requirements and Expectations
+
+- A simple and intuitive navigation system,
+- Quickly and easily find relevant information,
+- Links and functions that work as expected,
+- Good presentation and a visually appealing design regardless of screen size,
+- An easy way to contact the beauty salon,
+- Accessibility.
+
+### User Stories
+
+#### First-time User 
+1. As a first-time user, I want to know where the beauty salon is.
+2. As a first-time user, I want to know the treatments prices.
+3. As a first-time user, I want to know more about the beauty salon, its history and vision.
+4. As a first-time user, I want to get a feel for the treatments and atmosphere in the beauty salon.
+5. I want to easily contact the beauty salon, if I have any questions.
 
 
-
-### Site User 
-- I want to know where the beauty salon is.
-- I want to know the treatments prices.
-- I want to know more about the beauty salon, its history and vision.
-- I want to get a feel for the treatments and atmosphere in the beauty 
-  salon.
-- I want to easily contact the beauty salon, if I have any questions.
-
-
-### Site Owner 
-- I want users to easily access for the location and traetmenst prices.
-- I want the users to be able to contact the beauty salon.
-- I want users to easily make purchases.
-- I want to ensure users are directed back to the website should they 
-  come across a 404 error.
-
+#### Site Owner 
+6. I want users to easily access for the location and traetmenst prices.
+7. As the site owner, I want the users to be able to contact the beauty salon.
+8. As the site owner, I want to know more about the beauty salon, its history and vision.
 
 ## Design
 
@@ -102,7 +106,7 @@ Specific colours used on the site all taken from a colour picker in InDesign are
 3. Off-white: #fafafa 
 4. Light pink: #fbf7fc;
 5. Light brown: rgb(220, 210, 210)
-6. Light grey: #3d3d3d;
+6. Orange: orange;
 
 After deciding on the colours I tested them on WebAIM to make sure how the contrast between them worked best.
 
@@ -126,6 +130,22 @@ The website consists of four separate pages:
 - A Gallery page that introduces the user to the coaches,
 - A Contact page with a form for getting in touch.
 
+### Wireframes
+
+<details><summary>Home</summary>
+<img src="docs/wireframes/home-wireframe.png">
+</details>
+<details><summary>Treatments</summary>
+<img src="docs/wireframes/treatments-wireframe.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/wireframes/gallery-wireframe.png">
+</details>
+<details><summary>Prices</summary>
+<img src="docs/wireframes/contact-wireframe.png">
+</details>
+
+
 
 ## Features
 The page consists of four pages and features.
@@ -139,16 +159,19 @@ The page consists of four pages and features.
 - Hovering the the link for is white underlined from left 
   to right.
 - Logo is placed on the center of the site and linked the Index.html.
+- User stories covered: 5, 6, 7, 8.
 
-![Logo and Navigation Bar](docs/navbar.png)
+![Logo and Navigation Bar](docs/features/navbar.png)
 
 ### Map
 - Show the beauty salon location on an embedded Google Map.
 ![Map](docs/map.png)
+User stories covered: 1, 6.
 
 ### Get In Touch
 - A contact form allowing for the user to send message to the beauty 
   salon.
+- User stories covered: 5, 8.
 
 ### Prices 
 - Pricing is broken down into four sections:
@@ -156,12 +179,13 @@ The page consists of four pages and features.
     2. Facial
     3. Waxing
     4. Eyelash
+- User stories covered: 2, 6.
 
 ### Footer
 - Featured on all four pages.
 - Consists of 3 separate sections: logo, contact information and social 
   media links.
-
+- User stories covered: 1, , 7, 8.
 ![Footer](docs/footer.png)
 
 ## Technologies Used
@@ -188,13 +212,51 @@ The page consists of four pages and features.
 
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors.
 
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgaborerdei.github.io%2Fproject1%2Findex.html)
+
+treatments.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgaborerdei.github.io%2Fproject1%2Ftreatments.html) 
+
+gallery.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgaborerdei.github.io%2Fproject1%2Fgallery.html) 
+
+contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgaborerdei.github.io%2Fproject1%2Fcontact.html) 
+
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. All pages pass with no errors.
 
+style.css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgaborerdei.github.io%2Fproject1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=hu)
+
+
 
 ### Performance
 The Lighthouse developer tool was used test the performance of the website. All aspects performing well.
+
+<details><summary>index.html</summary>
+<img src="docs/lighthouse/lighthouse-index.png">
+</details>
+<details><summary>treatments.html</summary>
+<img src="docs/lighthouse/lighthouse-treatements.png">
+</details>
+<details><summary>gallery.html</summary>
+<img src="docs/lighthouse/lighthouse-gallery.png">
+</details>
+<details><summary>contact.html</summary>
+<img src="docs/lighthouse/lighthouse-contact.png">
+</details>
+
+
+
+### Accessibility
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
+
+index.html [results](https://wave.webaim.org/report#/https://gaborerdei.github.io/project1/index.html) 
+
+treatments.html [results](https://wave.webaim.org/report#/https://gaborerdei.github.io/project1/treatments.html)
+
+gallery.html [results](https://wave.webaim.org/report#/https://gaborerdei.github.io/project1/gallery.html)
+
+contact.html [results](https://wave.webaim.org/report#/https://gaborerdei.github.io/project1/contact.html)
+
 
 ### Performing tests on various devices 
 The website was tested on the following devices:
@@ -209,54 +271,76 @@ The website was tested on the following browsers:
 - Mozilla Firefox
 - Apple Safari
 
-### Site User Test
-#### Map
- - Feature:	On Contact Us page scroll down the bottom
- - Action: Locating a map showing the location of the beauty salon
- - Expected Result:	 Works as expected
- - Actual Result: Works as expected
 
-#### Contact Us form
- - Feature:	On Contact page scroll down the bottom
- - Action: Fill the form
- - Expected Result:	 Works as expected
- - Actual Result: Works as expected
+### Testing user stories
 
-#### Treatments
- - Feature:	On Treatments page scroll down the bottom
- - Action: Pricelist showing the available treatments and prices
- - Expected Result:	 Works as expected
- - Actual Result: Works as expected
-#### Footer
- - Feature:	On Index page scroll down the bottom
- - Action: Footer showing the address, phone number and email
- - Expected Result:	 Works as expected
- - Actual Result: Works as expected
+#### First-time User
 
-###  Site Owner Test
-#### Map
- - Feature:	On Contact Us page scroll down the bottom
- - Action: Locating a map showing the location of the beauty salon
- - Expected Result:	 Works as expected
- - Actual Result: Works as expected
+1. As a first-time user, I want to know where the beauty salon is.
 
-#### Contact Us form
- - Feature:	On Contact page scroll down the bottom
- - Action: Fill the form
- - Expected Result:	 Works as expected
- - Actual Result: Works as expected
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | On Index page scroll down the bottom | Locating a map showing the location of the gym | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the address of the gym | Works as expected |
+<br>
 
-#### Treatments
- - Feature:	On Treatments page scroll down the bottom
- - Action: Pricelist showing the available treatments and prices
- - Expected Result:	 Works as expected
- - Actual Result: Works as expected
+2. As a first-time user, I want to know the treatments prices.
 
-#### Footer
- - Feature:	On Index page scroll down the bottom
- - Action: Footer showing the address, phone number and email
- - Expected Result:	 Works as expected
- - Actual Result: Works as expected
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Treatments menu | On Index page click on 'Treatments' menu on nav bar | Find Prices page with all pricing | Works as expected |
+| Navigation Bar | On any page at the top click on 'Treatments' | Find Treatments page with all pricing | Works as expected |
+<br>
+
+3. As a first-time user, I want to know more about the beauty salon, its history and vision.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On Index page click on 'Home' menu on nav bar   | Find Index page with story of the salon| Works as expected |
+<br>
+
+4. As a first-time user, I want to get a feel for the treatments and atmosphere in the beauty salon.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'Gallery' | Find About page with more photos about the salon | Works as expected |
+| Show Gallery | On Gallery page scroll down to gallery | Find images of the beauty salon  | Works as expected |
+<br>
+
+5. As a first-time user, I want to easily contact the beauty salon, if I have any questions.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'Contact Us' | Find Contact page with more information | Works as expected |
+| Footer | On Index page scroll down to 'Footer'  | Find address, phone number, email address and social icons | Works as expected |
+<br>
+
+#### Site Owner 
+
+6. As the site owner, I want users to easily access for the location and traetmenst prices.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'Treatments' | Find Treatment Prices | Works as expected |
+| Navigation Bar | On any page at the top click on 'Contact Us' | Find Salon Location | Works as expected |
+
+
+7. As the site owner, I want the users to be able to contact the beauty 
+salon.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'Contact Us' | Find Contact page with more information | Works as expected |
+| Footer | On Index page scroll down to 'Footer'  | Find address, phone number, email address and social icons | Works as expected |
+<br>
+
+8. As the site owner, I want to know more about the beauty salon, its history and vision.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On Index page click on 'Home' menu on nav bar   | Find Index page with story of the salon| Works as expected |
+<br>
+
 
 ## Deployment
 
@@ -292,12 +376,29 @@ The website was deployed using GitHub Pages by following these steps:
 
 
 
-## Bugs
+You can for fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right-hand corner
+
+
+
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone.
+
+
+
+## Bugs and fixes
 
 - My Codeanywhere credits has been ran out, so I just bought new credits.
 
 - All navbar menus link has to be changed in the Header on all page from 
-  href="/index.html"> to  href="project1/index.html">. Without this 
+  href="/index.html"> to  href="index.html">. Without this 
   modification you will get 404 error. 
 
 - Having tested the Contact us page map and form position on all 
@@ -305,6 +406,115 @@ The website was deployed using GitHub Pages by following these steps:
   out of place on different devices. Using a ' width:120px' unit  with 
   specific media queries commands instead allows them respond better 
   ensuring they are in a good position on all devices.
+
+##### Media Query commands
+```css
+        @media(max-width: 994px) {
+    
+    .nav-link {
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
+    .nav {
+        margin-left: 25px;
+    }
+ 
+    .navbar-nav {
+        gap: 1px;
+    }
+
+    .navbar-toggler-icon {
+        color:rgb(220, 210, 210);
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .main-header{
+        min-width: 100%;
+        margin-left: 10px;
+    }
+
+    .logos {
+        margin-left: 10px;
+    }
+
+    .supplier-logo {
+        padding-left: 10px;
+        justify-content: center;
+    }
+
+    .pricelist-header{
+        min-width: 100%;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .treatments-table {
+        font-family: Alex Brush;
+        margin-left: 10px;
+    }
+    .treatments-photo {
+        display: none;
+    }
+
+    .offer-photo {
+        display: none;
+    }
+
+    .container .contact-form input {
+        width: 140px;
+    }
+
+    .container .contact-form textarea {
+        width: 140px;
+    }
+
+    .container .contact-form .btn-send {
+        width: 140px;
+    }
+
+    .container .map {
+        margin-top: 15px;
+    }
+    .offer-card {
+        margin-left: 0px;
+    }
+
+    .contact {
+        margin-top: 23px;
+        padding-left: 25px;
+    }    
+}
+```
+##### MAP
+The map had a grey line under so wasn't flush to the footer, after using 
+google inspect I noticed the container was a different height the map so 
+matched both heights to 400px which fixed the issue.
+
+#### Original code
+```css
+            .map {
+                height: 602px;
+                width: 100%;
+            }
+```
+#### Code fix
+```css
+            .map {
+                height: 602px;
+                width: 100%;
+            }
+
+            .map iframe {
+                height: 530px;
+                width: 100%;
+                }
+```
+
+
 
 
 
@@ -370,4 +580,5 @@ I would like to take the opportunity to thank:
 - Tutor support from Code Institute,
 - The slack community of coders for helpful replies,
 - and to my family.
+
 
