@@ -161,7 +161,7 @@ The page consists of four pages and features.
 - Logo is placed on the center of the site and linked the Index.html.
 - User stories covered: 5, 6, 7, 8.
 
-![Logo and Navigation Bar](docs/features/navbar.png)
+![Logo and Navigation Bar](docs/navbar.png)
 
 ### Map
 - Show the beauty salon location on an embedded Google Map.
